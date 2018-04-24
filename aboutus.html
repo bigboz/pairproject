@@ -23,6 +23,7 @@ body {font-size:16px;}
     <div class="w3-dropdown-hover">
       <button class="w3-bar-item w3-button w3-center w3-padding-16">BLOGS</button>
         <div class="w3-dropdown-content w3-bar-block w3-border w3-padding-16">
+          <a href="https://bigboz.github.io/pairproject/page2.html" class="w3-bar-item w3-button">ลู่วิ่งของชาวหาดใหญ่</a>
           <a href="https://bigboz.github.io/pairproject/aee3.html" class="w3-bar-item w3-button">My dream University</a>
           <a href="https://bigboz.github.io/pairproject/ac12.html" class="w3-bar-item w3-button">Activity in Prince of Songkla University</a>
         </div>
@@ -53,13 +54,13 @@ body {font-size:16px;}
 <div class="w3-content" style="max-width:1100px">
 
   <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
+  <div class="w3-row w3-padding-64 " id="about" style="margin-top:100px">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="1.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     <img src="kabinface.jpg" class="w3-round w3-image" alt="Kabin" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About Catering</h1><br>
+      <h1 class="w3-center">About Kabin</h1><br>
       <h5 class="w3-center">Tradition since 1889</h5>
       <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
       <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -70,26 +71,15 @@ body {font-size:16px;}
 
   <!-- Menu Section -->
   <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Our Menu</h1><br>
-      <h4>Bread Basket</h4>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-
-      <h4>Honey Almond Granola with Fruits</h4>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-
-      <h4>Belgian Waffle</h4>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-
-      <h4>Scrambled eggs</h4>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-
-      <h4>Blueberry Pancakes</h4>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Chinamas</h1><br>
+      <h5 class="w3-center">Tradition since 1889</h5>
+      <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
 
     <div class="w3-col l6 w3-padding-large">
-      <img src="1.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      <img src="aeeface.jpg" class="w3-round w3-image" alt="Chinamas" style="width:100%">
     </div>
   </div>
 
@@ -115,8 +105,28 @@ body {font-size:16px;}
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by BOSS&AEE</p>
 </footer>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
 
 </body>
 </html>
