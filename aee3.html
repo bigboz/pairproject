@@ -15,14 +15,22 @@ body {font-size:16px;}
 </style>
 <body>
 
-  <!-- Sidebar/menu -->
+    <!-- Sidebar/menu -->
   <nav class="w3-sidebar w3-bar-block w3-red w3-animate-left w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;left:0;" id="mySidebar">
     <a href="javascript:void()" onclick="w3_close()" class="w3-red w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a>
     <a href="https://bigboz.github.io/pairproject/" onclick="w3_close()" class="w3-red w3-bar-item w3-button w3-center w3-padding-16">HOME</a>
-
+    <div class="w3-dropdown-hover">
+      <button class="w3-bar-item w3-button w3-center w3-padding-16">BLOGS</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border w3-padding-16">
+          <a href="https://bigboz.github.io/pairproject/page2.html" class="w3-bar-item w3-button">ลู่วิ่งของชาวหาดใหญ่</a>
+          <a href="https://bigboz.github.io/pairproject/aee3.html" class="w3-bar-item w3-button">My dream University</a>
+          <a href="https://bigboz.github.io/pairproject/ac12.html" class="w3-bar-item w3-button">Activity in Prince of Songkla University</a>
+        </div>
+    </div>
     <a href="#contact" onclick="w3_close()" class="w3-red w3-bar-item w3-button w3-center w3-padding-16">CONTACT</a>
 
   </nav>
+
 
   <!-- Top menu on small screens -->
   <header class="w3-red w3-container w3-top w3-xlarge w3-padding-16">
@@ -39,7 +47,7 @@ body {font-size:16px;}
   </header>
 
   <!-- Overlay effect when opening sidebar on small screens -->
-  <div class="w3-red w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="w3-red w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main w3-animate-top" style="margin-left:340px;margin-right:340px">
